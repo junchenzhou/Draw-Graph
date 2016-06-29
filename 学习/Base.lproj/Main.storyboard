@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5gV-Hc-VOG">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Frn-FY-hat">
+                                <rect key="frame" x="90" y="84" width="135" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.42222600459999998" blue="0.14153587440000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Uqz-Sr-iYK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="翩翩起舞">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIImageLearn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggI-92-b6y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdO-y1-tFM">
+                                <rect key="frame" x="90" y="139" width="135" height="40"/>
+                                <color key="backgroundColor" red="0.056888123649999997" green="1" blue="0.81942917250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="M3K-Pw-qKT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Quartz绘制图形">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Quartz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qBc-2P-Mo8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewn-3r-tJT">
+                                <rect key="frame" x="90" y="333" width="135" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.42222600459999998" blue="0.14153587440000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="翩翩起舞">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhR-oL-O9r">
+                                <rect key="frame" x="90" y="399" width="135" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.42222600459999998" blue="0.14153587440000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="翩翩起舞">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebf-GY-vAN">
+                                <rect key="frame" x="90" y="464" width="135" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.42222600459999998" blue="0.14153587440000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="翩翩起舞">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W07-0J-ROR">
+                                <rect key="frame" x="90" y="194" width="135" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.42222600459999998" blue="0.14153587440000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Pof-z1-OLk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Quartz绘制文本">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="QuartzText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rq2-Qs-jsm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COi-4u-7VB">
+                                <rect key="frame" x="90" y="249" width="135" height="40"/>
+                                <color key="backgroundColor" red="0.056888123649999997" green="1" blue="0.81942917250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rk8-mc-mcS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="绘制任意多角星">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="QuartzStar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AR1-Td-3kC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="COi-4u-7VB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="90" id="AI0-eR-sa3"/>
+                            <constraint firstItem="W07-0J-ROR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="90" id="IWb-lN-tl6"/>
+                            <constraint firstAttribute="trailing" secondItem="fdO-y1-tFM" secondAttribute="trailing" constant="95" id="Jno-4z-h7a"/>
+                            <constraint firstAttribute="trailing" secondItem="W07-0J-ROR" secondAttribute="trailing" constant="95" id="KFF-r0-ZGh"/>
+                            <constraint firstAttribute="trailing" secondItem="Frn-FY-hat" secondAttribute="trailing" constant="95" id="Z0d-L5-6uM"/>
+                            <constraint firstItem="fdO-y1-tFM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="90" id="a6n-KP-Bo4"/>
+                            <constraint firstItem="Frn-FY-hat" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="90" id="bvH-K0-456"/>
+                            <constraint firstItem="W07-0J-ROR" firstAttribute="top" secondItem="fdO-y1-tFM" secondAttribute="bottom" constant="15" id="dF3-rc-jAk"/>
+                            <constraint firstItem="fdO-y1-tFM" firstAttribute="top" secondItem="Frn-FY-hat" secondAttribute="bottom" constant="15" id="rH1-0B-MBd"/>
+                            <constraint firstItem="COi-4u-7VB" firstAttribute="top" secondItem="W07-0J-ROR" secondAttribute="bottom" constant="15" id="v9d-yd-dBm"/>
+                            <constraint firstItem="Frn-FY-hat" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="vYv-jL-ZnU"/>
+                            <constraint firstAttribute="trailing" secondItem="COi-4u-7VB" secondAttribute="trailing" constant="95" id="wzH-OA-kXe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="vtB-To-M9G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="311"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I96-RU-uIx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5gV-Hc-VOG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kwU-l8-vUg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="x8a-kc-enb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGF-hB-6YG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247" y="299"/>
+        </scene>
+    </scenes>
+</document>

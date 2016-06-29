@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  学习
+//
+//  Created by Apple on 16/6/16.
+//  Copyright © 2016年 LG. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// RGB颜色
+#define LGColor( r, g , b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 扩展
+#import "UIBarButtonItem+Extension.h"
+#import "UILabel+Extension.h"
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIView+ZJC_Toast.h"
+#import "UIButton+Extension.h"
+// 三方库
+#import "Masonry.h"
+
+
+#endif /* PrefixHeader_pch */
